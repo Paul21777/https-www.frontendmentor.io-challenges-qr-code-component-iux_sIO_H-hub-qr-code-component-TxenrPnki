@@ -1,48 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
+
 body{
-    background-color: hsl(212, 45%, 89%);
-    font-family: 'Outfit', sans-serif;
+    background-color: #D5E1EF;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    margin: 0;
+    overflow: hidden;
 }
 
-h1 { font-size: 1.5em; text-align: center; color: black; margin: 20px;  }
-
-p { font-size: 1.2em; text-align: center; margin: 20px;}
-
-img{
+.card-component{
     width: 320px;
-    height: 320px;
-    border-radius: 15px;
-    display: flex;
-    text-align: center;
-    margin: 15px;
-    
-}
-
-main{
-    width: 350px;
-    height: 560px;
+    height: 497px;
     background-color: white;
     border-radius: 20px;
     margin: auto;
-    margin-top: 150px;
-    padding: 5px;
-    
+    margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
+  transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */ 
 }
 
-p{
-    padding: 15px;
-    text-align: center;
-    font-size: 1.1em;
-    color: gray;
-}
-
-footer{
-    width: 330px;
-    margin: auto;
-    text-align: center;
-    background-color: hsl(213, 20%, 76%);
+.qr-img img{
+    width: 288px;
+    height: 288px;
     border-radius: 10px;
-    margin-top: 40px;
-    
+    margin: 16px 16px 0 16px;
+}
+
+.text{
+    margin-top: 24px;
+}
+
+.title{
+    font-size: 22px;
+    font-weight: 700;
+    color: #1F314F;
+    text-align: center;
+    margin: 0 16px 16px 16px;
+}
+
+.description{
+    color: #7D889E;
+    text-align: center;
+    margin: 0 32px 40px 32px;
 }
