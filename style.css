@@ -7,6 +7,7 @@ body{
     font-family: "Outfit", sans-serif;
     margin: 0;
     overflow: hidden;
+
 }
 
 .card-component{
@@ -16,7 +17,9 @@ body{
     border-radius: 20px;
     margin: auto;
     margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
-  transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */ 
+    transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.05);
+    
 }
 
 .qr-img img{
