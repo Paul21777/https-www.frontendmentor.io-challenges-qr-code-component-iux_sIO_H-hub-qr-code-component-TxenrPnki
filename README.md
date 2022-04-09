@@ -51,7 +51,7 @@ Learn about how to center vertically an element (work only if there is one singl
 	transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
 ```
 ### Continued development
-- Would like to learn about [CSS custom properties](https://developer.mozilla.org/fr/docs/Web/CSS/Using_CSS_custom_properties)and use them in my projects
+- Would like to learn about [CSS custom properties](https://developer.mozilla.org/fr/docs/Web/CSS/Using_CSS_custom_properties) and use them in my projects
 - [How to vertically center an element](https://www.alsacreations.com/tuto/lire/1032-comment-centrer-verticalement-sur-tous-les-navigateurs.html)
 
 
