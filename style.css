@@ -47,6 +47,7 @@ h1{
     color: #7D889E;
     text-align: center;
     line-height: 19px;
+    margin: 0;
 }
 
 h1 + .description{
