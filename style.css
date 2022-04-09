@@ -10,6 +10,7 @@ body{
 
 }
 
+
 .card-component{
     width: 320px;
     height: 497px;
@@ -30,19 +31,24 @@ body{
 }
 
 .text{
-    margin-top: 24px;
+    padding: 24px;
 }
 
-.title{
+h1{
     font-size: 22px;
     font-weight: 700;
     color: #1F314F;
     text-align: center;
-    margin: 0 16px 16px 16px;
+    line-height: 28px;
+    margin: 0;
 }
 
 .description{
     color: #7D889E;
     text-align: center;
-    margin: 0 32px 40px 32px;
+    line-height: 19px;
+}
+
+h1 + .description{
+    margin-top: 24px;
 }
